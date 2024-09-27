@@ -36,7 +36,7 @@ header{
 }
 
 .nav-item a {
-background-color: var(--cor-primaria-3);
+background-color: var(--cor-primaria-1);
 font-size: 1.2rem;
 font-weight: 600;
 }
