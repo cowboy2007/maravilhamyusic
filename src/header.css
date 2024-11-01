@@ -35,8 +35,27 @@ header{
     text-transform: uppercase;
 }
 
-.nav-item a {
-background-color: var(--cor-primaria-2);
+.nav-item  {
 font-size: 1.2rem;
 font-weight: 600;
+}
+
+.nav-item:hover {
+    background-color: var(--cor-primaria-5);
+    color: var(--cor-neutra-1);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav_celular {
+    display: none;
+
+}
+
+btn-celular {
+    display: none;
+}
+
+.nav_celular .ativo {
+    display: block;
 }
